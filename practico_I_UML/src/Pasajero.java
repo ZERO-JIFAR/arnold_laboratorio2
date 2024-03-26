@@ -1,12 +1,10 @@
 public class Pasajero {
     private int id;
     private String nombre;
-    private int edad;
 
-    public Pasajero(int id, String nombre, int edad) {
+    public Pasajero(int id, String nombre) {
         this.id = id;
         this.nombre = nombre;
-        this.edad = edad;
     }
 
     public int getId() {
@@ -25,8 +23,10 @@ public class Pasajero {
         this.nombre = nombre;
     }
 
-    public int getEdad() {
-        return edad;
-    }
+    @Override
+    public String toString() {
+        return "Pasajero " + this.id + ": " + this.nombre;
 
-    public void
+
+    }
+}

@@ -1,3 +1,5 @@
+import java.util.Date;
+
 public class Vuelo {
     private int id;
     private Date fecha;

@@ -2,9 +2,9 @@ public class Reserva {
     private int id;
     private Vuelo vuelo;
     private Pasajero pasajero;
-    private String asiento;
+    private boolean asiento;
 
-    public Reserva(int id, Vuelo vuelo, Pasajero pasajero, String asiento) {
+    public Reserva(int id, Vuelo vuelo, Pasajero pasajero, boolean asiento) {
         this.id = id;
         this.vuelo = vuelo;
         this.pasajero = pasajero;
@@ -35,11 +35,11 @@ public class Reserva {
         this.pasajero = pasajero;
     }
 
-    public String getAsiento() {
+    public boolean getAsiento() {
         return asiento;
     }
 
-    public void setAsiento(String asiento) {
+    public void setAsiento(boolean asiento) {
         this.asiento = asiento;
     }
 }
