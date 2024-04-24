@@ -6,7 +6,7 @@ public class Vuelo {
     private String ruta;
     private Avion avion;
 
-    public Vuelo(int id, Date fecha, String ruta, Avion avion) {
+    public Vuelo(int id, Date fecha, String ruta) {
         this.id = id;
         this.fecha = fecha;
         this.ruta = ruta;

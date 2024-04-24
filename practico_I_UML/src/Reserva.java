@@ -4,7 +4,7 @@ public class Reserva {
     private Pasajero pasajero;
     private boolean asiento;
 
-    public Reserva(int id, Vuelo vuelo, Pasajero pasajero, boolean asiento) {
+    public Reserva(int id, boolean asiento) {
         this.id = id;
         this.vuelo = vuelo;
         this.pasajero = pasajero;
